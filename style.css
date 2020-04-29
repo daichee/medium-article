@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&family=Roboto&display=swap');
+
+body {
+  margin: 30px;
+  width: 1000;
+  display: block;
+  color: #424242;
+  font-size: 18px;
+  line-height: 1.6;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+}
+
+.banner {
+  display: block;
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  padding: 80px 40px;
+  font-family: 'Roboto', sans-serif;
+  color: #E7E6E6;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 40px;
+}
+
+.container {
+  width: 800px;
+  /*margin: 50px auto;*/
+}
+
+.subtitle {
+  font-weight: 800;
+}
+
+.btn-blue {
+  padding: 0px 5px;
+  background-color: #C9FFFD;
+  font-family: 'Roboto', sans-serif;
+  color: #595A5A;
+  text-decoration: none;
+}
